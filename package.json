@@ -1,0 +1,31 @@
+{
+    "name": "clicktest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devEngines": {
+        "packageManager": {
+            "name": "pnpm",
+            "version": "12.16.1",
+            "onFail": "download"
+        }
+    },
+    "packageManager": "pnpm@12.16.1",
+    "type": "module",
+    "dependencies": {
+        "astro": "^7.4.5"
+    },
+    "devDependencies": {
+        "oxfmt": "^0.75.0",
+        "oxlint": "^1.90.0",
+        "oxlint-tsgolint": "^7.0.2005"
+    }
+}
